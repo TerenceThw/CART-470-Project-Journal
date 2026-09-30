@@ -1,0 +1,56 @@
+Catch-up from the last meeting and some ideas after the meeting and consultation with Elio and Sabine.
+
+ 
+
+-Using ceramic as a container itself to store a sound memory.
+
+-By using technology to replay this container, the sound will get distorted and become slightly off from the original recording. It is not only a replaying of the original sound, but an experience of experiencing between the sound itself and the object where the sound is being stored.
+
+-Using Nadia’s grandma’s audio recording may be a good starting point
+
+ 
+
+Ideas with more precise technical details:
+
+ 
+
+.3d print
+Elio mentioned that 3d ceramic printing is one of the directions we can dive into. From the wax cylinder record we saw from the last meeting, we can try to recreate that with 3d printing.
+
+Some questions and testing we will need to test on :
+
+We will have to make this project work; we will need to push the clay through the nozzle that are around 0.04- 0.08 mm (impossible to do it on 3d printing)
+Possible workflow we can try: turn the audio into 3d spiral groove (we will need to figure out how)
+Print out the plaster mould and fill it with clay.
+Test and see how it sounds
+I do not recommend this one cause we will also need to build a device to play back the audio.
+ 
+
+ 
+
+.By creating the sound wave pattern on tapestry with traditional indigenous beadwork technique, with ceramic ,conductive wire, and a sound transducer. The tapestry itself will become a container that contains the sound.
+(like the wax cylinder recording we talk about last week.) (risky, going to require a lot of testing and not 100% sure it’s going to work ) second option
+
+Some questions with this one, and we will need to test on:
+The size of the work (if we are transforming a 3 mins record into  sound wave and create it on tapestry, it will likely be in a size of around 270 cm x 16cm), is that possible or that will require too much space , time, work?
+The shape of the ceramic?
+Material of the wire? (We need something that is capable of holding the weight and also allows the vibration to transmit)
+-Various testing will be needed: first, start with a smaller sample and see how the ceramic works with different wire and adjust. Also, to test how the sounds are going to be heard
+
+
+
+.Idea of having various ceramic pieces in the space. Each of them will contain a sound (or recordings). By touching it, it will send the signal to the central processor and play back the sound that belongs to the piece. B
+y inviting participants to participate, each time the experience will be entirely unique and become an experience only between the participant, the sound and the ceramic pieces. (This is the safest project we can work on 
+from among the 4 options; it's doable, and the success rate is high) first option
+
+Some questions with this one, and we will need to test on:
+what are the glaze Nadia use on the art piece? (need to check if they can be work as an electrical insulator: metallic)
+if they are conductive, then we can connect the pieces to the MPR121(Arduino/raspberry Pi) using the jumper. We will also need to find a way to hide the jumper. (display on a desk, and people can touch?)
+cut one audio sample into multiple pieces, and each piece will be connect/ associate with one audio file. When the piece is being touch, it starts to play the recording that belongs to the specific piece.
+
+ 
+
+.Engrave the sound wave directly on the ceramic piece (I proposed this, and after research, I think this is almost impossible)
+(This is extremely hard and complicated due to the fact that when ceramic is being fired, it will significantly change the pattern of the sound wave. Watched various people testing it, and all failed)
+
+
