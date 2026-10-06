@@ -1,0 +1,8 @@
+For this week, our team has decided to try using RGB values as variables to control sound. Before we start working with Nadia, we tested this concept using an audio sample. 
+The idea is to convert the audio sample into an RGB-format soundwave image. Then, we can use this file as a base to instruct the Arduino (which will be our next step) on what color 
+is associated with which part of the sound. When the sensor detects a certain color, it will automatically play the corresponding sound. We experimented with different tools and encountered several 
+challenges. For example, at first, I tried using TouchDesigner, but it didn’t work out at all. TouchDesigner generates a continuously moving live soundwave, making it hard to extract data to send to
+Arduino. Therefore, I experimented with Audacity, which allowed me to turn the entire song into one long RGB soundwave. However, a new problem arose: Audacity does not allow users to export the soundwave
+as an image, and it is impossible to screenshot the entire soundwave at once because it is too long. Therefore, I had to cut the audio file into several smaller parts and take screenshots of each.
+This led to an interesting idea: what if we intentionally mismatch these soundwaves? How would they sound when read by the sensor?
+For next week, our team will start experimenting with how to play back these soundwaves using Arduino and conduct research on the tools we will need for the project.
