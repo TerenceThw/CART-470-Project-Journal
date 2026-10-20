@@ -1,0 +1,11 @@
+
+  This week, we compared the TCS34725 colour sensor with the AS7265x spectral triad. The data from the TCS34725 was very unstable 
+and incapable of consistently providing the data we needed, often only detecting red reliably. On the other hand, the AS7265x 
+provided a much more accurate dataset. Instead of outputting a single colour value like the TCS34725, the spectral sensor provides
+18 different channels representing light intensity across various wavelengths.
+
+  My work this week focused on understanding what each wavelength represents and how to use them in the project. For our needs,
+we do not require extremely accurate colour data; instead, we will focus on 5 specific channels: blue (460 nm and 485 nm), green (560 nm), 
+and red (610 nm and 645 nm). By determining which of these channels stands out the most, we can easily identify the scanned colour.
+Once we test the sensor with different objects next week, we will start mapping these data values to different parts of an audio wave. 
+We are currently using our own samples, but once Nadia sends the sample she mentioned, we will analyze it and integrate it into our final project.
