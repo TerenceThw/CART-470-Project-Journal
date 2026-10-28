@@ -1,0 +1,19 @@
+
+For this week, our team accomplished two major tasks. First, the container for the sensor was 3D printed. We tested it with the Arduino,
+and it functioned perfectly. On top of that, we worked on integrating the Arduino with the AS7265X spectral sensor to detect different colours.
+The sensor provides 18 channels of light reflection data, some of which directly correspond to wavelengths associated with red, green, and blue light.
+
+   Because the sensor does not output colour values directly, we developed a straightforward method to determine the sensed colour. We focused on 6 specific
+channels: one used to identify black (where we noticed a tracking issue),  three dedicated to calculating green values, one for the red value and one for 
+the blue value. The green spectrum requires higher precision because its readings are easily skewed by red or blue reflections. By comparing these channels 
+to find which output is highest, the system identifies the target colour. We then linked each colour to a specific audio file so that sensor inputs trigger
+audio playback in real time, successfully using light reflection as a control variable for sound.
+
+We also identified a few key issues to address in the coming weeks:
+1.	Black light detection: The sensor currently struggles to detect black, as interference from other spectral channels distorts the readings.
+2.	Audio playback: The audio transitions are choppy, so we need a method to crossfade or harmonize the samples for smoother playback.
+3.	Sample scaling and logic: The final product will feature many more samples derived from a 3-minute audio track split across the 18 channels.
+We are developing a system to handle this playback logic. For example, if green is detected, the system determines which of the three green sub-channels 
+has the highest value and then plays the audio that is directly linked to that channel. We plan to keep expanding this logic to create a more dynamic
+interactive experience.
+
